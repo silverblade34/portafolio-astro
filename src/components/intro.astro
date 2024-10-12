@@ -1,0 +1,29 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Hello World!" id="intro">
+  <Icon slot="eyebrow" name="logogatoblanco" class="size-32" />
+  <Fragment slot="lead">
+    <span class="text-primary"> Un buen código es como un buen café:</span>
+    fuerte, limpio y sin azúcar...
+    <span class="text-primary"> o sin bugs</span> depende del caso. ☕
+  </Fragment>
+  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://docs.astro.build/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:telescope" class="size-8" />
+      <span>Contactame</span>
+    </a>
+    <a
+      href="https://astro.new/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:rocket" class="size-8" />
+      <span>Try it out</span>
+    </a>
+  </div>
+</ContentSection>
