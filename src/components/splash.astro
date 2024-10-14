@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 import perfil from "~/assets/perfil_animado.png";
 ---
 
@@ -26,7 +27,7 @@ import perfil from "~/assets/perfil_animado.png";
             Apasionado por el desarrollo de software.
           </span>
           Considero que
-          <span class="text-orange-600"
+          <span class="text-orange-500"
             >la tecnología suficiente es indistinguible de la magia.
           </span>¡Bienvenido a mi portafolio!
         </h2>
@@ -35,26 +36,18 @@ import perfil from "~/assets/perfil_animado.png";
         >
           <a
             href="https://www.linkedin.com/in/marcos-pacheco-tacay-674206249/"
-            class="bg max-w-fit rounded-full bg-gray-800 px-3 py-3 text-white transition duration-300 hover:bg-indigo-900 md:px-4"
+            class="bg flex max-w-fit items-center justify-center rounded-full bg-gray-800 px-3 py-3 text-white transition duration-300 hover:bg-indigo-900 md:px-4"
             target="_blank"
           >
-            <i class="fa-brands fa-linkedin mr-1"></i>
+            <Icon name="fa-brands:linkedin" class="mr-2 size-5" />
             Linkedin
           </a>
           <a
-            href="https://github.com/silverblade34"
-            class="bg max-w-fit rounded-full bg-gray-800 px-3 py-3 text-white transition duration-300 hover:bg-indigo-900 md:px-4"
-            target="_blank"
-          >
-            <i class="fa-brands fa-github mr-1"></i>
-            Github
-          </a>
-          <a
             href="mailto:mpacheco.tacay@gmail.com"
-            class="bg col-span-3 max-w-fit rounded-full bg-gray-800 px-3 py-3 text-white transition duration-300 hover:bg-indigo-900 md:col-span-1 md:px-4"
+            class="bg col-span-3 flex max-w-fit items-center justify-center rounded-full bg-gray-800 px-3 py-3 text-white transition duration-300 hover:bg-indigo-900 md:col-span-1 md:px-4"
             target="_blank"
           >
-            <i class="fa-solid fa-envelope mr-1"></i>
+            <Icon name="mdi:email" class="mr-2 size-5" />
             mpacheco.tacay@gmail.com
           </a>
         </div>
