@@ -3,12 +3,12 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 
 export interface Props {
-  site: CollectionEntry<"showcase">;
+  site: CollectionEntry<"projects">;
 }
 
 const { site } = Astro.props;
 
-const widths = [450, 800];
+const widths = [400, 700];
 const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
 ---
 

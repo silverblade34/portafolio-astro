@@ -5,7 +5,7 @@ import Experience from "~/components/experience.astro";
 import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import Intro from "~/components/intro.astro";
-import Showcase from "~/components/showcase.astro";
+import Projects from "~/components/projects.astro";
 import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
@@ -22,11 +22,16 @@ const description =
     <link rel="icon" href="/logo-gato-blanco.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
-    <title>Marcos Pacheco | Ingeniero de Software y Desarrollador Full Stack</title>
+    <title>
+      Marcos Pacheco | Ingeniero de Software y Desarrollador Full Stack
+    </title>
     <meta name="description" content={description} />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+    />
     <!-- social media -->
     <meta property="og:title" content="Portafolio" />
     <meta property="og:type" content="website" />
@@ -65,7 +70,7 @@ const description =
     <Splash />
     <div class="space-y-24 px-8 py-32">
       <Intro />
-      <Showcase />
+      <Projects />
       <Experience />
       <Compatibility />
     </div>
