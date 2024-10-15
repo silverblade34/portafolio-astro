@@ -1,0 +1,88 @@
+---
+import CompatibilityList from "~/components/compatibility-list.astro";
+import ContentSection from "~/components/content-section.astro";
+import type { CompatibilityItem } from "~/types";
+
+const frameworks: Array<CompatibilityItem> = [
+  {
+    title: "Vue",
+    icon: "frameworks/vue"
+  },
+  {
+    title: "Nest",
+    icon: "frameworks/nestjs-icon"
+  },
+  {
+    title: "Flutter",
+    icon: "frameworks/flutter"
+  },
+  {
+    title: "Spring boot",
+    icon: "frameworks/spring-boot"
+  },
+  {
+    title: "Express",
+    icon: "frameworks/express-js"
+  },
+];
+
+const databases: Array<CompatibilityItem> = [
+  {
+    title: "MongoDB",
+    icon: "databases/mongodb"
+  },
+  {
+    title: "MySQL",
+    icon: "databases/mysql"
+  },
+  {
+    title: "SQL Server",
+    icon: "databases/sql-server"
+  },
+  {
+    title: "PostgreSQL",
+    icon: "databases/postgresql"
+  }
+];
+
+const devops: Array<CompatibilityItem> = [
+  {
+    title: "Docker",
+    icon: "devops/docker"
+  },
+  {
+    title: "Vercel",
+    icon: "devops/vercel"
+  },
+  {
+    title: "Render",
+    icon: "devops/render"
+  },
+  {
+    title: "AWS",
+    icon: "devops/aws"
+  },
+];
+---
+
+<ContentSection title="Skills" id="skills">
+  <Fragment slot="lead">
+    Mi <span class="text-primary">stack</span> incluye estas{" "}
+    <span class="text-primary">tecnologías.</span>
+  </Fragment>
+  <CompatibilityList
+    items={frameworks}
+    title="Frameworks"
+    url="https://docs.astro.build/core-concepts/framework-components/"
+  />
+  <CompatibilityList
+  items={databases}
+  title="Bases de datos"
+  url="https://docs.astro.build/core-concepts/framework-components/"
+/>
+  <CompatibilityList
+    items={devops}
+    title="DevOps & Cloud"
+    url="https://docs.astro.build/guides/deploy/"
+  />
+</ContentSection>
