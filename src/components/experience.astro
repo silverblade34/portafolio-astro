@@ -1,61 +1,61 @@
 ---
-import { Icon } from "astro-icon/components";
 import ContentSection from "~/components/content-section.astro";
 import type { FeatureItem } from "~/types";
 
-const features: Array<FeatureItem> = [
+const jobs: Array<FeatureItem> = [
   {
-    title: "Bring Your Own Framework",
+    title: "Analista programador - SYS & NET DEL PERÚ",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "mdi:handshake",
+      "Desarrollo aplicativos moviles para la gestión logistica y optimización de procesos.",
+    time: "2024 Junio - Actualidad",
+    technologies: ["Flutter", "NestJS", "Spring Boot", "AWS", "Docker"],
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Analista programador - Mantra Consultores",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "mdi:feather",
+      "Migración de aplicativo movil Ionic a flutter mejorando el rendimiento, escalabilidad y usabilidad para el cliente.",
+    time: "2024 Febrero - 2024 Mayo",
+    technologies: ["Flutter", ".NET", "AWS"],
   },
   {
-    title: "On-Demand Components",
+    title: "Programador Junior - SYS & NET DEL PERÚ",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page. If the user never sees it, they never load it.",
-    icon: "mdi:directions-fork",
+      "Participe en el desarrollo de aplicaciones integradas con plataformas de seguimiento GPS e IoT como Wialon y plataformas de sistemas de vigilancia como Howen.",
+    time: "2022 Diciembre - 2024 Febrero",
+    technologies: ["Flutter", "NestJS", "VueJs"],
   },
   {
-    title: "Broad Integration",
+    title: "Desarrollador web - PRESTACLUB",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any of your favorite npm packages.",
-    icon: "mdi:graph",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication.",
-    icon: "mdi:search-web",
-  },
-  {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "mdi:account-group",
+      "Desarrollo de la arquitectura, el diseño y la funcionalidad del sitio web.",
+    time: "2022 Agosto - 2022 Noviembre",
+    technologies: ["Javascript", "CSSModules", "PHP"],
   },
 ];
 ---
 
 <ContentSection title="Experiencia" id="experience">
   <Fragment slot="lead">
-    Experiencia en <span class="text-primary">desarrollo de software</span>, trabajando en proyectos <span class="text-primary">móviles, web y backend.</span>
+    He trabajado en proyectos <span class="text-primary"
+      >móviles, web y backend.</span
+    >
   </Fragment>
-  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  <ul class="mt-8 w-full max-w-6xl space-y-10">
     {
-      features.map(({ title, description, icon }) => (
-        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
-          <div class="size-16 rounded-full border-2 border-current p-3">
-            <Icon name={icon} class="size-full" />
+      jobs.map((job) => (
+        <li class="flex flex-col gap-6 md:flex-row md:justify-between">
+          <div class="text-gray-400 text-xs md:w-1/4">{job.time}</div>
+          <div class="md:w-3/4">
+            <h3 class="font-bold tracking-tight text-lg">{job.title}</h3>
+            <p class="mt-2 text-gray-600">{job.description}</p>
+            <ul class="mt-2 flex list-inside list-disc flex-wrap gap-x-4 text-gray-600 text-sm">
+              {job.technologies.map((tech) => (
+                <li class="list-item cursor-default hover:text-orange-400">
+                  {tech}
+                </li>
+              ))}
+            </ul>
           </div>
-          <p class="text-center font-extrabold text-xl">{title}</p>
-          <p class="text-center text-offset text-sm">{description}</p>
         </li>
       ))
     }
