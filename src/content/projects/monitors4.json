@@ -1,6 +1,7 @@
 {
   "title": "MonitorS4",
   "image": "/src/content/projects/_images/monitors4.png",
+  "description": "Aplicación desarrollada para registrar el abastecimiento de combustible o agua. Se conecta mediante Bluetooth a un dispositivo electrónico que mide los galones suministrados, permitiendo a los conductores generar boletas y guías electrónicas de manera automática.",
   "url": "http://67.205.164.216:3040/login",
-  "featured": 4
+  "featured": 6
 }

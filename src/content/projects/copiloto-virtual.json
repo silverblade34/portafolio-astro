@@ -1,6 +1,7 @@
 {
   "title": "Copiloto virtual",
-  "image": "/src/content/projects/_images/copiloto.jpeg",
+  "image": "/src/content/projects/_images/copiloto.png",
+  "description": "Aplicación móvil para optimizar rutas y mejorar la seguridad en el transporte. Permite a los conductores descargar rutas específicas y monitorea su velocidad en tiempo real, emitiendo alertas ante cambios de tramo o exceso de velocidad. Integrada con geolocalización y Wialon, esta solución ayuda a reducir riesgos y promover la seguridad vial.",
   "url": "https://acortar.link/hAmm1x",
-  "featured": 6
+  "featured": 3
 }

@@ -2,7 +2,6 @@
 import "@fontsource-variable/inter";
 import Skills from "~/components/skills.astro";
 import Experience from "~/components/experience.astro";
-import Footer from "~/components/footer.astro";
 import Header from "~/components/header.astro";
 import Intro from "~/components/intro.astro";
 import Projects from "~/components/projects.astro";
@@ -11,7 +10,7 @@ import "~/styles/index.css";
 
 const { generator, site } = Astro;
 const description =
-  "Soy un Ingeniero de Software y Desarrollador Full Stack con 2 años de experiencia en proyectos de alto impacto y calidad. Te ofrezco soluciones creativas y eficientes para tus necesidades web y móviles.";
+  "Soy un Ingeniero de Software y Desarrollador Full Stack con 3 años de experiencia en proyectos de alto impacto y calidad. Te ofrezco soluciones creativas y eficientes para tus necesidades web y móviles.";
 ---
 
 <!doctype html>
@@ -68,7 +67,7 @@ const description =
   >
     <Header />
     <Splash />
-    <div class="space-y-24 px-8 py-32">
+    <div class="space-y-24 lg:px-[10rem] px-8 py-32">
       <Intro />
       <Projects />
       <Experience />

@@ -13,7 +13,7 @@ const jobs: Array<FeatureItem> = [
   {
     title: "Analista programador - Mantra Consultores",
     description:
-      "Migración de aplicativo movil Ionic a flutter mejorando el rendimiento, escalabilidad y usabilidad para el cliente.",
+      "Migración de aplicativo ERP movil Ionic a flutter mejorando el rendimiento, escalabilidad y usabilidad para el cliente.",
     time: "2024 Febrero - 2024 Mayo",
     technologies: ["Flutter", ".NET", "AWS"],
   },
@@ -29,7 +29,7 @@ const jobs: Array<FeatureItem> = [
     description:
       "Desarrollo de la arquitectura, el diseño y la funcionalidad del sitio web.",
     time: "2022 Agosto - 2022 Noviembre",
-    technologies: ["Javascript", "CSSModules", "PHP"],
+    technologies: ["Javascript", "MySQL", "PHP", "VueJs"],
   },
 ];
 ---
@@ -44,11 +44,11 @@ const jobs: Array<FeatureItem> = [
     {
       jobs.map((job) => (
         <li class="flex flex-col gap-6 md:flex-row md:justify-between">
-          <div class="text-gray-400 text-xs md:w-1/4">{job.time}</div>
+          <div class="text-gray-300 text-xs md:w-1/4 mt-2">{job.time}</div>
           <div class="md:w-3/4">
-            <h3 class="font-bold tracking-tight text-lg">{job.title}</h3>
-            <p class="mt-2 text-gray-600">{job.description}</p>
-            <ul class="mt-2 flex list-inside list-disc flex-wrap gap-x-4 text-gray-600 text-sm">
+            <h3 class="font-bold text-lg">{job.title}</h3>
+            <p class="mt-2 text-gray-400 text-sm">{job.description}</p>
+            <ul class="mt-2 flex list-inside list-disc flex-wrap gap-x-4 text-gray-400 text-sm">
               {job.technologies.map((tech) => (
                 <li class="list-item cursor-default hover:text-orange-400">
                   {tech}
