@@ -1,5 +1,6 @@
 {
   "title": "Mantra Aduanet",
+  "link": "",
   "image": "/src/content/projects/_images/aduanas.png",
   "description": "Aduanas Movil es una aplicación móvil diseñada como un sistema ERP para agencias aduaneras, permitiendo gestionar eficientemente todos los procesos de sus servicios, incluyendo indicadores de gestión y reportes, generación de cotizaciones, y seguimiento de operaciones aduaneras (comercial, producción, vb, operaciones, tesorería, facturación, archivo).",
   "url": "http://204.48.17.106:3050/login",

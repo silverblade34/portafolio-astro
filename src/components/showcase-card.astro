@@ -17,7 +17,7 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
   <div class="group col-span-3 aspect-video hover:!text-default lg:col-span-2">
     <figure class="relative h-full w-full overflow-hidden rounded-lg">
       <Image
-        class="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-110 group-focus:scale-110"
+        class="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-110 group-focus:scale-110 opacity-95 group-hover:opacity-100"
         src={site.data.image}
         widths={widths}
         sizes={sizes}
@@ -30,11 +30,31 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
     <p class="mt-5 text-gray-400 text-sm">{site.data.description}</p>
     <div class="mt-5">
       <button
-        class="flex items-center justify-center gap-1 rounded-lg border border-gray-500 bg-gray-700 px-4 py-2 text-white transition-colors duration-500 text-xs hover:text-indigo-400"
+        class="rounded-lg border border-gray-500 bg-gray-700 px-4 py-2 text-white transition-colors duration-500 text-xs hover:text-indigo-400"
       >
-        <Icon name="mdi:link" class="size-5" />
-        Detalles
+        <a
+          class="flex items-center justify-center gap-1"
+          href={site.data.url}
+          target="_blank"
+        >
+          <Icon name="mdi:linkedin" class="size-5" />
+          Detalles
+        </a>
       </button>
+      {site.data.link && (
+        <button
+          class="rounded-lg border border-gray-500 bg-gray-700 px-4 py-2 text-white transition-colors duration-400 text-xs hover:text-indigo-400"
+        >
+          <a
+            class="flex items-center justify-center gap-1"
+            href={site.data.link}
+            target="_blank"
+          >
+            <Icon name="mdi:link" class="size-5" />
+            Link
+          </a>
+        </button>
+      )}
     </div>
   </div>
 </div>

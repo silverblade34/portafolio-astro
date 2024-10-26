@@ -5,6 +5,7 @@ const projects = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string().min(1),
+      link: z.string(),
       description: z.string().min(1),
       image: image(),
       url: z.string().url(),

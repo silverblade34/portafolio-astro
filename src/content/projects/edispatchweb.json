@@ -1,7 +1,8 @@
 {
   "title": "eDispatch",
+  "link": "https://edispatch.vercel.app/login",
   "image": "/src/content/projects/_images/edispatchweb.png",
-  "description": "Aplicación desarrollada para registrar el abastecimiento de combustible o agua. Se conecta mediante Bluetooth a un dispositivo electrónico que mide los galones suministrados, permitiendo a los conductores generar boletas y guías electrónicas de manera automática.",
+  "description": "Sistema web de administración para el registro y monitoreo de abastecimientos de combustible y agua. Incluye módulos para gestionar conductores, unidades, clientes, destinatarios, facturas y proveedores. Ofrece gráficos de abastecimiento y KPIs, además de reportes detallados que permiten analizar el rendimiento y optimizar el uso de recursos en cada ruta.",
   "url": "https://edispatch.vercel.app/login",
-  "featured": 5
+  "featured": 2
 }

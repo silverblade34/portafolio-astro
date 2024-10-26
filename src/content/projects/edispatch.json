@@ -1,5 +1,6 @@
 {
   "title": "Aplicativo eDispatch",
+  "link": "",
   "image": "/src/content/projects/_images/edispatch.png",
   "description": "Aplicación desarrollada para registrar el abastecimiento de combustible o agua. Se conecta mediante Bluetooth a un dispositivo electrónico que mide los galones suministrados, permitiendo a los conductores generar boletas y guías electrónicas de manera automática.",
   "url": "https://play.google.com/",
