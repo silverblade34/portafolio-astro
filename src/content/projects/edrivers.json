@@ -1,6 +1,10 @@
 {
   "title": "eDrivers",
-  "link": "",
+  "link": {
+    "name": "Youtube",
+    "value": "https://youtu.be/lJ7RhMO0Iug",
+    "icon": "mdi:youtube"
+  },  
   "image": "/src/content/projects/_images/edrivers.png",
   "description": "Aplicación Flutter para asignación rápida de conductores a vehículos mediante QR, con formularios previos de ruta (limpieza, seguridad) que incluyen validación y carga de fotos. Facilita la revisión de formularios completados, asegurando un registro accesible de respuestas y rutas.",
   "url": "https://youtu.be/lJ7RhMO0Iug",

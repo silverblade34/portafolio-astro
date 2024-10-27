@@ -1,6 +1,10 @@
 {
   "title": "MonitorS4",
-  "link": "http://67.205.164.216:3040/pendienteslistados",
+  "link": {
+    "name": "Link",
+    "value": "http://67.205.164.216:3040/",
+    "icon": "mdi:link"
+  }, 
   "image": "/src/content/projects/_images/monitors4.png",
   "description": "Sistema SaaS que permite administrar alertas, mantener operadores para su atención, visualizar evidencias, generar informes y reportes, y monitorear alertas en tiempo real con gráficos interactivos. Incluye la creación de grupos de usuarios, unidades y vehículos, reglas de acceso personalizadas, y gestión de turnos para operadores. Integrado con las APIs de Howen y Wialon, este sistema optimiza la seguridad y eficiencia en procesos de monitoreo y respuesta en tiempo real.",
   "url": "https://www.linkedin.com/posts/marcos-pacheco-tacay-674206249_desarrollodesoftware-iot-automatizaciaejn-activity-7152404541743775744-vMVn?utm_source=share&utm_medium=member_desktop",

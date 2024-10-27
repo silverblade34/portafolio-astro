@@ -13,7 +13,7 @@ const widths = [400, 700];
 const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
 ---
 
-<div class="mb-10 grid gap-4 lg:grid-cols-5">
+<div class="mb-10 grid gap-4 lg:grid-cols-5 items-center">
   <div class="group col-span-3 aspect-video hover:!text-default lg:col-span-2">
     <figure class="relative h-full w-full overflow-hidden rounded-lg">
       <Image
@@ -41,17 +41,17 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
           Detalles
         </a>
       </button>
-      {site.data.link && (
+      {site.data.link.value && (
         <button
           class="rounded-lg border border-gray-500 bg-gray-700 px-4 py-2 text-white transition-colors duration-400 text-xs hover:text-indigo-400"
         >
           <a
             class="flex items-center justify-center gap-1"
-            href={site.data.link}
+            href={site.data.link.value}
             target="_blank"
           >
-            <Icon name="mdi:link" class="size-5" />
-            Link
+            <Icon name={site.data.link.icon}class="size-5" />
+            {site.data.link.name}
           </a>
         </button>
       )}
