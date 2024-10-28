@@ -1,5 +1,5 @@
 # Portafolio
-![Screenshots of Astro Landing Page](screenshots.png)
+![Screenshots of Astro Landing Page](screenshots.jpeg)
 
 ## Features
 
