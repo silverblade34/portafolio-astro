@@ -4,7 +4,17 @@
     "name": "Link",
     "value": "https://edispatch.vercel.app/login",
     "icon": "mdi:link"
-  },  
+  },
+  "technologies": [
+    {
+      "icon": "frameworks/vue",
+      "name": "VueJS"
+    },
+    {
+      "icon": "mdi:tailwind",
+      "name": "Tailwind"
+    }
+  ],
   "image": "/src/content/projects/_images/edispatchweb.png",
   "description": "Sistema web de administración para el registro y monitoreo de abastecimientos de combustible y agua. Incluye módulos para gestionar conductores, unidades, clientes, destinatarios, facturas y proveedores. Ofrece gráficos de abastecimiento y KPIs, además de reportes detallados que permiten analizar el rendimiento y optimizar el uso de recursos en cada ruta.",
   "url": "https://www.linkedin.com/posts/marcos-pacheco-tacay-674206249_logaedstica-tecnologaeda-abastecimiento-activity-7256083902690209793-9hqu?utm_source=share&utm_medium=member_desktop",

@@ -14,6 +14,14 @@ const projects = defineCollection({
       image: image(),
       url: z.string(),
       featured: z.number().min(1).optional(),
+      technologies: z
+        .array(
+          z.object({
+            icon: z.string(),
+            name: z.string().min(1),
+          })
+        )
+        .optional(),
     }),
 });
 

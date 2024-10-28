@@ -4,7 +4,17 @@
     "name": "Youtube",
     "value": "",
     "icon": "mdi:youtube"
-  },  
+  },
+  "technologies": [
+    {
+      "icon": "frameworks/flutter",
+      "name": "Flutter"
+    },
+    {
+      "icon": "frameworks/spring-boot",
+      "name": "Spring boot"
+    }
+  ],
   "image": "/src/content/projects/_images/edispatch.png",
   "description": "Aplicación desarrollada para registrar el abastecimiento de combustible o agua. Se conecta mediante Bluetooth a un dispositivo electrónico que mide los galones suministrados, permitiendo a los conductores generar boletas y guías electrónicas de manera automática.",
   "url": "https://www.linkedin.com/posts/marcos-pacheco-tacay-674206249_transformando-la-log%C3%ADstica-de-abastecimiento-activity-7256083902690209793-RWca?utm_source=share&utm_medium=member_desktop",

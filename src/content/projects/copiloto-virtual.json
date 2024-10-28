@@ -5,6 +5,16 @@
     "value": "https://youtu.be/LdF_DsoBADg",
     "icon": "mdi:youtube"
   },
+  "technologies": [
+    {
+      "icon": "frameworks/flutter",
+      "name": "Flutter"
+    },
+    {
+      "icon": "frameworks/nestjs-icon",
+      "name": "NestJS"
+    }
+  ],
   "image": "/src/content/projects/_images/copiloto.png",
   "description": "Aplicación móvil para optimizar rutas y mejorar la seguridad en el transporte. Permite a los conductores descargar rutas específicas y monitorea su velocidad en tiempo real, emitiendo alertas ante cambios de tramo o exceso de velocidad. Integrada con geolocalización y Wialon, esta solución ayuda a reducir riesgos y promover la seguridad vial.",
   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7243268532119949312",
