@@ -4,32 +4,55 @@ import type { FeatureItem } from "~/types";
 
 const jobs: Array<FeatureItem> = [
   {
-    title: "Analista programador - SYS & NET DEL PERÚ",
+    title: "Full Stack Developer (Backend & Mobile) - SYS & NET DEL PERÚ",
     description:
-      "Desarrollo aplicativos moviles para la gestión logistica y optimización de procesos.",
+      "Diseñé e implementé la infraestructura backend de un sistema de monitoreo indoor basado en beacons para la detección en tiempo real, utilizando servicios de AWS como Lambda y DynamoDB para el procesamiento y almacenamiento de datos. Desarrollé una aplicación móvil para el control de despachos de conductores en el abastecimiento de combustible, conectando con dispositivos electrónicos para registrar la cantidad despachada y generar tickets y guías electrónicas automáticamente.",
     time: "2024 Junio - Actualidad",
-    technologies: ["Flutter", "NestJS", "Spring Boot", "AWS", "Docker"],
+    technologies: [
+      "Flutter",
+      "NestJS",
+      "Express",
+      "Typescript",
+      "AWS Services",
+      "Serverless",
+      "Docker",
+    ],
   },
   {
     title: "Analista de sistemas - Mantra Consultores",
     description:
-      "Migración de aplicativo ERP movil Ionic a flutter mejorando el rendimiento, escalabilidad y usabilidad para el cliente.",
+      "Responsable de optimizar sistemas .NET para la gestión aduanera, logrando mayor eficiencia en el procesamiento de datos. Migré una app de Ionic 3 a Flutter, mejorando estabilidad y rendimiento. Contribuí a un ERP móvil que aumentó la eficiencia operativa. Utilicé AWS S3 para el almacenamiento de archivos y AWS Lambda para automatizar tareas y mejorar la escalabilidad de procesos. Además, empleé Python para automatizar tareas mediante web scraping y bots, acelerando la recolección de datos.",
     time: "2024 Febrero - 2024 Mayo",
-    technologies: ["Flutter", ".NET", "AWS"],
+    technologies: ["Flutter", ".NET", "AWS Services", "Serverless"],
   },
   {
-    title: "Programador Junior - SYS & NET DEL PERÚ",
+    title: "Full Stack Developer - SYS & NET DEL PERÚ",
     description:
-      "Participe en el desarrollo de aplicaciones integradas con plataformas de seguimiento GPS e IoT como Wialon y plataformas de sistemas de vigilancia como Howen.",
+      "Desarrollo de sistemas de seguridad y rastreo GPS, implementando alarmas personalizables y visualización de datos en tiempo real, utilizando WebSockets, API Gateway y AWS Lambda, además de S3 y EC2 para optimizar el almacenamiento y procesamiento. Participación en plataformas multiusuario y basadas en roles para la gestión logística en diversos sectores, diseñando arquitecturas escalables y seguras. Creación de aplicaciones móviles para gestión y reporte, mejorando la eficiencia operativa y la experiencia del usuario final.",
     time: "2022 Diciembre - 2024 Febrero",
-    technologies: ["Flutter", "NestJS", "VueJs"],
+    technologies: [
+      "Flutter",
+      "NestJS",
+      "Express",
+      "Typescript",
+      "AWS Services",
+      "Serverless",
+      "Docker",
+    ],
   },
   {
-    title: "Desarrollador web - PRESTACLUB",
+    title: "Frontend Developer - PRESTACLUB",
     description:
-      "Desarrollo de la arquitectura, el diseño y la funcionalidad del sitio web.",
+      "Desarrollo de la arquitectura, diseño y funcionalidad de sitios web, implementando soluciones personalizadas en WordPress y PHP. Creación y optimización de landing pages específicas para campañas de marketing, mejorando la conversión y experiencia del usuario.",
     time: "2022 Agosto - 2022 Noviembre",
     technologies: ["Javascript", "MySQL", "PHP", "VueJs"],
+  },
+  {
+    title: "Desarrollador Web - PRESTACLUB",
+    description:
+      "Implementé un sistema de cotizaciones para asesores de ventas con Vue y Express, permitiéndoles generar presupuestos personalizados de manera rápida y eficiente, lo que mejoró la productividad y el servicio al cliente.",
+    time: "2021 Diciembre - 2022 Mayo",
+    technologies: ["Javascript", "Express", "VueJs", "Digital Ocean"],
   },
 ];
 ---
@@ -44,10 +67,10 @@ const jobs: Array<FeatureItem> = [
     {
       jobs.map((job) => (
         <li class="flex flex-col gap-6 md:flex-row md:justify-between">
-          <div class="text-gray-300 text-xs md:w-1/4 mt-2">{job.time}</div>
+          <div class="mt-2 text-gray-300 text-xs md:w-1/4">{job.time}</div>
           <div class="md:w-3/4">
             <h3 class="font-bold text-lg">{job.title}</h3>
-            <p class="mt-2 text-gray-400 text-sm">{job.description}</p>
+            <p class="mt-2 text-gray-400 text-xs">{job.description}</p>
             <ul class="mt-2 flex list-inside list-disc flex-wrap gap-x-4 text-gray-400 text-sm">
               {job.technologies.map((tech) => (
                 <li class="list-item cursor-default hover:text-orange-400">
@@ -61,3 +84,4 @@ const jobs: Array<FeatureItem> = [
     }
   </ul>
 </ContentSection>
+
