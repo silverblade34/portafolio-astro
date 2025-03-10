@@ -1,9 +1,9 @@
 {
   "title": "Aplicativo eDispatch",
   "link": {
-    "name": "Youtube",
-    "value": "",
-    "icon": "mdi:youtube"
+    "name": "Apk",
+    "value": "https://maquiadev-apks.s3.us-east-2.amazonaws.com/app-edispatchv2.apk",
+    "icon": "mdi:android"
   },
   "technologies": [
     {
