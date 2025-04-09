@@ -21,16 +21,46 @@ const description =
     <link rel="icon" href="/logo-gato-blanco.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
+    <!-- SEO Básico -->
     <title>
       Marcos Pacheco | Ingeniero de Software y Desarrollador Full Stack
     </title>
     <meta name="description" content={description} />
+    <meta name="author" content="Marcos Pacheco" />
+    <meta
+      name="keywords"
+      content="desarrollador full stack, ingeniero de software, programador web, desarrollador frontend, desarrollador backend, astro, javascript, react"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Marcos Pacheco | Ingeniero de Software y Desarrollador Full Stack"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={site} />
+    <meta property="og:image" content="/tu-imagen-social.jpg" />
+    <meta property="og:site_name" content="Portafolio de Marcos Pacheco" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Marcos Pacheco | Ingeniero de Software y Desarrollador Full Stack"
+    />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/tu-imagen-social.jpg" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
     />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://maquiadev.com/" />
+
     <!-- social media -->
     <meta property="og:title" content="Portafolio" />
     <meta property="og:type" content="website" />
