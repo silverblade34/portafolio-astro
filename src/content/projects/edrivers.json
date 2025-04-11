@@ -1,9 +1,9 @@
 {
   "title": "eDrivers",
   "link": {
-    "name": "Youtube",
-    "value": "https://youtu.be/VL8WyZD5KPA",
-    "icon": "mdi:youtube"
+    "name": "Apk",
+    "value": "http://minio.s3.sys4log.com/aplicativos/eDrivers (1).apk",
+    "icon": "mdi:android"
   },
   "technologies": [
     {
