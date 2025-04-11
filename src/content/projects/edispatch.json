@@ -2,7 +2,7 @@
   "title": "Aplicativo eDispatch",
   "link": {
     "name": "Apk",
-    "value": "http://minio.s3.sys4log.com/aplicativos/app-edispatchv2.apk",
+    "value": "https://maquiadev-apks.s3.us-east-2.amazonaws.com/app-edispatchv2.apk",
     "icon": "mdi:android"
   },
   "technologies": [

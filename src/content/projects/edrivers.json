@@ -2,7 +2,7 @@
   "title": "eDrivers",
   "link": {
     "name": "Apk",
-    "value": "http://minio.s3.sys4log.com/aplicativos/eDrivers (1).apk",
+    "value": "https://maquiadev-apks.s3.us-east-2.amazonaws.com/eDrivers+(1).apk",
     "icon": "mdi:android"
   },
   "technologies": [
