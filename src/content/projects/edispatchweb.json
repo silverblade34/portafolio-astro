@@ -1,22 +1,18 @@
 {
-  "title": "eDispatch",
+  "title": "Comunidades digitales",
   "link": {
-    "name": "Link",
-    "value": "https://edispatch.vercel.app/login",
-    "icon": "mdi:link"
+    "name": "Apk",
+    "value": "https://maquiadev-apks.s3.us-east-2.amazonaws.com/app-comunidadesucv.apk",
+    "icon": "mdi:android"
   },
   "technologies": [
     {
-      "icon": "frameworks/vue",
-      "name": "VueJS"
-    },
-    {
-      "icon": "mdi:tailwind",
-      "name": "Tailwind"
+      "icon": "frameworks/flutter",
+      "name": "Flutter"
     }
   ],
-  "image": "/src/content/projects/_images/edispatchweb.png",
-  "description": "Sistema web de administración para el registro y monitoreo de abastecimientos de combustible y agua. Incluye módulos para gestionar conductores, unidades, clientes, destinatarios, facturas y proveedores. Ofrece gráficos de abastecimiento y KPIs, además de reportes detallados que permiten analizar el rendimiento y optimizar el uso de recursos en cada ruta.",
+  "image": "/src/content/projects/_images/comunidades.png",
+  "description": "Desarrollé una aplicación móvil nativa para la Universidad César Vallejo que transforma la experiencia de conexión entre estudiantes a través de comunidades digitales. Esta plataforma permite a los alumnos descubrir, unirse y participar activamente en diversas comunidades universitarias.",
   "url": "https://www.linkedin.com/posts/marcos-pacheco-tacay-674206249_logaedstica-tecnologaeda-abastecimiento-activity-7256083902690209793-9hqu?utm_source=share&utm_medium=member_desktop",
   "featured": 2
 }
